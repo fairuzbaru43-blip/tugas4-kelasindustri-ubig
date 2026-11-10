@@ -1,5 +1,4 @@
 
-// 1. Fungsi Ganjil Genap
 function ganjilGenap(angka) {
     if (angka % 2 === 0) {
         return "genap";
@@ -14,7 +13,6 @@ console.log(ganjilGenap(12)); // genap
 console.log(ganjilGenap(0));  // genap
 
 
-// 2. Konversi Celsius ke Fahrenheit
 const celsiusKeFahrenheit = (celsius) => {
     return celsius * 9 / 5 + 32;
 };
@@ -25,7 +23,6 @@ console.log(celsiusKeFahrenheit(100)); // 212
 console.log(celsiusKeFahrenheit(-40)); // -40
 
 
-// 3. Mencari Nilai Terbesar
 function nilaiTerbesar(a, b, c) {
     if (a >= b && a >= c) {
         return a;
@@ -42,7 +39,6 @@ console.log(nilaiTerbesar(80, 75, 80)); // 80
 console.log(nilaiTerbesar(-3, -7, -1)); // -1
 
 
-// 4. Tahun Kabisat
 function tahunKabisat(tahun) {
     if ((tahun % 4 === 0 && tahun % 100 !== 0) || tahun % 400 === 0) {
         return true;
@@ -58,7 +54,6 @@ console.log(tahunKabisat(1900)); // false
 console.log(tahunKabisat(2000)); // true
 
 
-// 5. Harga Setelah Diskon
 function hargaSetelahDiskon(total) {
     if (total >= 200000) {
         return total * 0.8;
